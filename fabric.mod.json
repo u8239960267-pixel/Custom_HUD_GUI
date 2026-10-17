@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_hud_gui",
+  "version": "${version}",
+  "name": "Custom HUD GUI",
+  "description": "Customizable client-side HUD with per-element colors, templates and screen positions.",
+  "authors": ["Custom HUD GUI"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.customhud.CustomHudClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
